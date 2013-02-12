@@ -7,6 +7,7 @@
 //
 
 #import "SGViewController.h"
+#import "SGEditViewController.h"
 
 @interface SGViewController ()
 
@@ -24,6 +25,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(IBAction)editViewButtonPressed{
+    SGEditViewController *editView = [[SGEditViewController alloc] init];
+    [self presentViewController:editView animated:NO completion:nil];
 }
 
 @end

@@ -19,6 +19,25 @@
 		422DDD381671594400306B12 /* SGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 422DDD371671594400306B12 /* SGViewController.m */; };
 		422DDD3B1671594400306B12 /* SGViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 422DDD391671594400306B12 /* SGViewController_iPhone.xib */; };
 		422DDD3E1671594400306B12 /* SGViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 422DDD3C1671594400306B12 /* SGViewController_iPad.xib */; };
+		601E2F2A16C8A30B0083EBFB /* Tile.png in Resources */ = {isa = PBXBuildFile; fileRef = 601E2F2916C8A30B0083EBFB /* Tile.png */; };
+		601E2F3016C8ADFB0083EBFB /* Tile_C.png in Resources */ = {isa = PBXBuildFile; fileRef = 601E2F2D16C8ADFB0083EBFB /* Tile_C.png */; };
+		601E2F3116C8ADFB0083EBFB /* Tile_L.png in Resources */ = {isa = PBXBuildFile; fileRef = 601E2F2E16C8ADFB0083EBFB /* Tile_L.png */; };
+		601E2F3216C8ADFB0083EBFB /* Tile_R.png in Resources */ = {isa = PBXBuildFile; fileRef = 601E2F2F16C8ADFB0083EBFB /* Tile_R.png */; };
+		601E2F3816C96B420083EBFB /* SGCanvasVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 601E2F3416C969C00083EBFB /* SGCanvasVC.m */; };
+		601E2F3A16C96C790083EBFB /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 601E2F3916C96C790083EBFB /* playButton.png */; };
+		60AB439116ADC57F00A22D13 /* SGEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AB438F16ADC57F00A22D13 /* SGEditViewController.m */; };
+		60AB439216ADC57F00A22D13 /* SGEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60AB439016ADC57F00A22D13 /* SGEditViewController.xib */; };
+		60AB439B16ADC9FA00A22D13 /* SGWordListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AB439A16ADC9FA00A22D13 /* SGWordListController.m */; };
+		60AB439E16ADCC1600A22D13 /* SGWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AB439D16ADCC1600A22D13 /* SGWord.m */; };
+		60AB43A216ADCC6400A22D13 /* SGWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AB43A016ADCC6400A22D13 /* SGWordViewController.m */; };
+		60AB43A316ADCC6400A22D13 /* SGWordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60AB43A116ADCC6400A22D13 /* SGWordViewController.xib */; };
+		60AB43A516ADD27700A22D13 /* WordList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 60AB43A416ADD27700A22D13 /* WordList.txt */; };
+		60B2E68D16B06CB4007F330E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B2E68A16B06CAA007F330E /* AudioToolbox.framework */; };
+		60C331DD16C9895E00C14FE0 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60C331DC16C9895E00C14FE0 /* SettingsView.xib */; };
+		60C331E016C9DBE300C14FE0 /* transparentLtoR.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C331DE16C9DBE300C14FE0 /* transparentLtoR.png */; };
+		60C331E116C9DBE300C14FE0 /* transparentRtoL.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C331DF16C9DBE300C14FE0 /* transparentRtoL.png */; };
+		60F3E25816B8E87B003E7415 /* SGWordInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F3E25616B8E87B003E7415 /* SGWordInstance.m */; };
+		60F3E25916B8E87B003E7415 /* SGWordInstance.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F3E25716B8E87B003E7415 /* SGWordInstance.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +58,32 @@
 		422DDD371671594400306B12 /* SGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGViewController.m; sourceTree = "<group>"; };
 		422DDD3A1671594400306B12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGViewController_iPhone.xib; sourceTree = "<group>"; };
 		422DDD3D1671594400306B12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SGViewController_iPad.xib; sourceTree = "<group>"; };
+		601E2F2916C8A30B0083EBFB /* Tile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile.png; path = Graphics/Tile.png; sourceTree = "<group>"; };
+		601E2F2D16C8ADFB0083EBFB /* Tile_C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_C.png; path = Graphics/Tile_C.png; sourceTree = "<group>"; };
+		601E2F2E16C8ADFB0083EBFB /* Tile_L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_L.png; path = Graphics/Tile_L.png; sourceTree = "<group>"; };
+		601E2F2F16C8ADFB0083EBFB /* Tile_R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Tile_R.png; path = Graphics/Tile_R.png; sourceTree = "<group>"; };
+		601E2F3316C969BF0083EBFB /* SGCanvasVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SGCanvasVC.h; sourceTree = "<group>"; };
+		601E2F3416C969C00083EBFB /* SGCanvasVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SGCanvasVC.m; sourceTree = "<group>"; };
+		601E2F3516C969C00083EBFB /* SGCanvasVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SGCanvasVC.xib; sourceTree = "<group>"; };
+		601E2F3916C96C790083EBFB /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playButton.png; path = Graphics/playButton.png; sourceTree = "<group>"; };
+		60AB438E16ADC57F00A22D13 /* SGEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGEditViewController.h; sourceTree = "<group>"; };
+		60AB438F16ADC57F00A22D13 /* SGEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGEditViewController.m; sourceTree = "<group>"; };
+		60AB439016ADC57F00A22D13 /* SGEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGEditViewController.xib; sourceTree = "<group>"; };
+		60AB439916ADC9FA00A22D13 /* SGWordListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGWordListController.h; sourceTree = "<group>"; };
+		60AB439A16ADC9FA00A22D13 /* SGWordListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGWordListController.m; sourceTree = "<group>"; };
+		60AB439C16ADCC1600A22D13 /* SGWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGWord.h; sourceTree = "<group>"; };
+		60AB439D16ADCC1600A22D13 /* SGWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGWord.m; sourceTree = "<group>"; };
+		60AB439F16ADCC6400A22D13 /* SGWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGWordViewController.h; sourceTree = "<group>"; };
+		60AB43A016ADCC6400A22D13 /* SGWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGWordViewController.m; sourceTree = "<group>"; };
+		60AB43A116ADCC6400A22D13 /* SGWordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGWordViewController.xib; sourceTree = "<group>"; };
+		60AB43A416ADD27700A22D13 /* WordList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WordList.txt; sourceTree = "<group>"; };
+		60B2E68A16B06CAA007F330E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		60C331DC16C9895E00C14FE0 /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		60C331DE16C9DBE300C14FE0 /* transparentLtoR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transparentLtoR.png; path = Graphics/transparentLtoR.png; sourceTree = "<group>"; };
+		60C331DF16C9DBE300C14FE0 /* transparentRtoL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = transparentRtoL.png; path = Graphics/transparentRtoL.png; sourceTree = "<group>"; };
+		60F3E25516B8E87B003E7415 /* SGWordInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGWordInstance.h; sourceTree = "<group>"; };
+		60F3E25616B8E87B003E7415 /* SGWordInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGWordInstance.m; sourceTree = "<group>"; };
+		60F3E25716B8E87B003E7415 /* SGWordInstance.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGWordInstance.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60B2E68D16B06CB4007F330E /* AudioToolbox.framework in Frameworks */,
 				422DDD1F1671594400306B12 /* UIKit.framework in Frameworks */,
 				422DDD211671594400306B12 /* Foundation.framework in Frameworks */,
 				422DDD231671594400306B12 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +121,7 @@
 		422DDD1D1671594400306B12 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				60B2E68A16B06CAA007F330E /* AudioToolbox.framework */,
 				422DDD1E1671594400306B12 /* UIKit.framework */,
 				422DDD201671594400306B12 /* Foundation.framework */,
 				422DDD221671594400306B12 /* CoreGraphics.framework */,
@@ -85,12 +132,19 @@
 		422DDD241671594400306B12 /* Songerator */ = {
 			isa = PBXGroup;
 			children = (
+				60AB43A416ADD27700A22D13 /* WordList.txt */,
+				60AB439C16ADCC1600A22D13 /* SGWord.h */,
+				60AB439D16ADCC1600A22D13 /* SGWord.m */,
 				422DDD2D1671594400306B12 /* SGAppDelegate.h */,
 				422DDD2E1671594400306B12 /* SGAppDelegate.m */,
 				422DDD361671594400306B12 /* SGViewController.h */,
 				422DDD371671594400306B12 /* SGViewController.m */,
 				422DDD391671594400306B12 /* SGViewController_iPhone.xib */,
 				422DDD3C1671594400306B12 /* SGViewController_iPad.xib */,
+				601E2F3716C96A5C0083EBFB /* Edit View */,
+				601E2F3616C969DB0083EBFB /* Word Tiles */,
+				601E2F2C16C8A3190083EBFB /* Graphics */,
+				601E2F2916C8A30B0083EBFB /* Tile.png */,
 				422DDD251671594400306B12 /* Supporting Files */,
 			);
 			path = Songerator;
@@ -108,6 +162,48 @@
 				422DDD341671594400306B12 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		601E2F2C16C8A3190083EBFB /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				60C331DE16C9DBE300C14FE0 /* transparentLtoR.png */,
+				60C331DF16C9DBE300C14FE0 /* transparentRtoL.png */,
+				601E2F3916C96C790083EBFB /* playButton.png */,
+				601E2F2D16C8ADFB0083EBFB /* Tile_C.png */,
+				601E2F2E16C8ADFB0083EBFB /* Tile_L.png */,
+				601E2F2F16C8ADFB0083EBFB /* Tile_R.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		601E2F3616C969DB0083EBFB /* Word Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				60AB439F16ADCC6400A22D13 /* SGWordViewController.h */,
+				60AB43A016ADCC6400A22D13 /* SGWordViewController.m */,
+				60AB43A116ADCC6400A22D13 /* SGWordViewController.xib */,
+				60F3E25516B8E87B003E7415 /* SGWordInstance.h */,
+				60F3E25616B8E87B003E7415 /* SGWordInstance.m */,
+				60F3E25716B8E87B003E7415 /* SGWordInstance.xib */,
+			);
+			name = "Word Tiles";
+			sourceTree = "<group>";
+		};
+		601E2F3716C96A5C0083EBFB /* Edit View */ = {
+			isa = PBXGroup;
+			children = (
+				60AB438E16ADC57F00A22D13 /* SGEditViewController.h */,
+				60AB438F16ADC57F00A22D13 /* SGEditViewController.m */,
+				60AB439016ADC57F00A22D13 /* SGEditViewController.xib */,
+				60AB439916ADC9FA00A22D13 /* SGWordListController.h */,
+				60AB439A16ADC9FA00A22D13 /* SGWordListController.m */,
+				601E2F3316C969BF0083EBFB /* SGCanvasVC.h */,
+				601E2F3416C969C00083EBFB /* SGCanvasVC.m */,
+				601E2F3516C969C00083EBFB /* SGCanvasVC.xib */,
+				60C331DC16C9895E00C14FE0 /* SettingsView.xib */,
+			);
+			name = "Edit View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +264,18 @@
 				422DDD351671594400306B12 /* Default-568h@2x.png in Resources */,
 				422DDD3B1671594400306B12 /* SGViewController_iPhone.xib in Resources */,
 				422DDD3E1671594400306B12 /* SGViewController_iPad.xib in Resources */,
+				60AB439216ADC57F00A22D13 /* SGEditViewController.xib in Resources */,
+				60AB43A316ADCC6400A22D13 /* SGWordViewController.xib in Resources */,
+				60AB43A516ADD27700A22D13 /* WordList.txt in Resources */,
+				60F3E25916B8E87B003E7415 /* SGWordInstance.xib in Resources */,
+				601E2F2A16C8A30B0083EBFB /* Tile.png in Resources */,
+				601E2F3016C8ADFB0083EBFB /* Tile_C.png in Resources */,
+				601E2F3116C8ADFB0083EBFB /* Tile_L.png in Resources */,
+				601E2F3216C8ADFB0083EBFB /* Tile_R.png in Resources */,
+				601E2F3A16C96C790083EBFB /* playButton.png in Resources */,
+				60C331DD16C9895E00C14FE0 /* SettingsView.xib in Resources */,
+				60C331E016C9DBE300C14FE0 /* transparentLtoR.png in Resources */,
+				60C331E116C9DBE300C14FE0 /* transparentRtoL.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +289,12 @@
 				422DDD2B1671594400306B12 /* main.m in Sources */,
 				422DDD2F1671594400306B12 /* SGAppDelegate.m in Sources */,
 				422DDD381671594400306B12 /* SGViewController.m in Sources */,
+				60AB439116ADC57F00A22D13 /* SGEditViewController.m in Sources */,
+				60AB439B16ADC9FA00A22D13 /* SGWordListController.m in Sources */,
+				60AB439E16ADCC1600A22D13 /* SGWord.m in Sources */,
+				60AB43A216ADCC6400A22D13 /* SGWordViewController.m in Sources */,
+				60F3E25816B8E87B003E7415 /* SGWordInstance.m in Sources */,
+				601E2F3816C96B420083EBFB /* SGCanvasVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +421,7 @@
 				422DDD431671594400306B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
